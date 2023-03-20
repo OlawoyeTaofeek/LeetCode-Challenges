@@ -15,12 +15,14 @@ At the beginning of the game, you start with an empty record. You are given a li
 - Return the Sum of all tyhe scores on the record .
 
 
-1. Example 1:
+# Example 1:
 
 - Input: ops = ['5', '2', 'C', 'D', '+']
 
 - Output: 30
-- Explanation: 
+
+Explanation: 
+
 "5" - Add 5 to the record, record is now [5]
 
 "2" - Add 2 to the record, record is now [5 , 2]
@@ -33,9 +35,10 @@ At the beginning of the game, you start with an empty record. You are given a li
 - The total sum is 5 + 10 + 15 = 30 
 
 
-2. Example 1:
+# Example 2:
 
 - Input: ops = ['5', '-2', '4', 'C', 'D', '9', '+', '+']
+
 - Output: 27
 
 Explanation: 
@@ -60,13 +63,13 @@ Explanation:
 
 
 
-3. Example 3:
+# Example 3:
 
 - Input: ops = ['1']
 
 - Output: 1
 
-- Explanation: 
+Explanation: 
 
 '1' - Add 1 to the record, record is now [1]
 
