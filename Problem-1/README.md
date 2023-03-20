@@ -20,7 +20,7 @@ Example 2:
 
 - Output: [1,2]
 
-- Example 3:
+Example 3:
 
 - Input: nums = [3,3], target = 6
 
