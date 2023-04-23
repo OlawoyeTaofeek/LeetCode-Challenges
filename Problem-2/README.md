@@ -21,7 +21,7 @@ At the beginning of the game, you start with an empty record. You are given a li
 
 - Output: 30
 
-Explanation: 
+### Explanation: 
 
 "5" - Add 5 to the record, record is now [5]
 
@@ -41,7 +41,7 @@ Explanation:
 
 - Output: 27
 
-Explanation: 
+### Explanation: 
 
 "5" - Add 5 to the record, record is now [5]
 
@@ -69,7 +69,7 @@ Explanation:
 
 - Output: 1
 
-Explanation: 
+### Explanation: 
 
 '1' - Add 1 to the record, record is now [1]
 

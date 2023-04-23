@@ -1,7 +1,7 @@
 class twosum():
     def twoSum(self, nums=[2,7,11,15], target= 9):
         for i in range(nums):
-            for j in range(i+1):
+            for j in range(i+1, len(nums)):
                 if nums[i] + nums[j] == target:
                     return [i, j]
 print(twosum())
