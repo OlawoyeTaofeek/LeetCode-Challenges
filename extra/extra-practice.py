@@ -16,3 +16,20 @@ def permutation(list1, list2):
     return False
 
 print(permutation(['a', 'b', 'c'], ['c', 'a', 'b']))
+
+# Best Score
+#Given a list, write a function to get first, second best scores from the list.
+
+##List may contain duplicates.
+
+#Example
+
+myList = [84,85,86,87,85,90,85,83,23,45,84,1,2,0]
+#firstSecond(myList) # 90 87
+
+def firstSecond(givenList):
+    # TODO
+    lst = list(set(givenList))
+    lst.sort()
+    return lst[-1], lst[-2]
+print(firstSecond([84,85,86,87,85,90,85,83,23,45,84,1,2,0]))
