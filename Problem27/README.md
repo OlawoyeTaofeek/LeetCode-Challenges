@@ -22,10 +22,12 @@ The judge will test your solution with the following code:
 
 - assert k == expectedNums.length;
 
-  sort(nums, 0, k); // Sort the first k elements of nums
+       sort(nums, 0, k); // Sort the first k elements of nums
 
-  for (int i = 0; i < actualLength; i++) {
-    assert nums[i] == expectedNums[i];
+       for (int i = 0; i < actualLength; i++) {
+
+       assert nums[i] == expectedNums[i];
+       
 }
 
 
